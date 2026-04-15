@@ -90,8 +90,7 @@ fun StudentInformation(
     Column(modifier = modifier) {
         Text(
             text = stringResource(studentName),
-            modifier = Modifier.padding(top = dimensionResource
-                (R.dimen.padding_small)),
+            modifier = Modifier.padding(top = dimensionResource(R.dimen.padding_small)),
             style = MaterialTheme.typography.displayMedium
         )
         Text(
